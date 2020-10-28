@@ -1,0 +1,258 @@
+body {
+  font-family: 'Montserrat-regular', sans-serif;
+  background-color: black;
+  background-image: url('img/3.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight:bolder;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p {
+  color: white;
+}
+
+/*********sections************/
+.colored-section {
+  background-color: black;
+  color: #ffff;
+}
+.white-section{
+  background-color: white;
+  color:black;
+}
+.colorful-section {
+  text-align: center;
+  background-color: black;
+  color: #ffff;
+  padding-bottom:3rem;
+}
+
+/****Navigation Bar*************/
+.navbar {
+  padding: 0.5rem 0 0.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+.navbar-nav,
+.navbar-nav .nav-item:hover .nav-link {
+    color: 		#FF69B4;
+}
+/************title************/
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/3.jpg") center/cover no-repeat fixed;
+  margin-top: auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.hero .title {
+  color: #ffff;
+  font-size: 4rem;
+}
+
+.title:hover{
+  color:	#FF69B4;
+}
+/**********************About Us *****/
+.about{
+  color:	#FF69B4;
+  text-align: center;
+}
+/**********Welcome*******/
+.bold-heading{
+  font-weight: bold;
+}
+.welcome-img{
+  width:100%;
+  height:90%;
+}
+.black-para{
+  color:black;
+}
+/****************facilities********/
+
+.fa-tag {
+  border: 5rem;
+  border: 0.25rem solid #fff;
+  padding: 2rem;
+  margin: 1rem;
+  color:white;
+}
+
+.fa-tag:hover {
+  background-color:	#FF69B4;
+}
+
+.facilities{
+  padding:2rem;
+}
+
+.left, .right, .center {
+  text-align: center;
+  color:white;
+}
+
+/* Style the counter cards */
+.left {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/f1.jpg") no-repeat ;
+  background-size: 100% 100%;
+}
+
+
+.right {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/f2.jpg") no-repeat ;
+  background-size: 100% 100%;
+}
+
+.center {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/f3.jpg") no-repeat ;
+  background-size: 100% 100%;
+}
+
+/****************Pop up screens**********/
+.prof {
+  padding:2rem;
+  background-color: white;
+}
+.prof-img {
+padding-bottom:0.5rem;
+width:100%;
+height:100%;
+}
+.stu{
+    padding:2rem;
+    background-color: white;
+}
+.stu-img{
+  padding-bottom:0.5rem;
+  width:100%;
+  height:100%;
+}
+/***********services*****/
+.service-img{
+  width:80%;
+  height:60%;
+}
+.service{
+  padding:0.5rem;
+}
+.btn-light, .btn-light:hover, .btn-light:active, .btn-light:visited {
+    background-color: 	#FF69B4;
+}
+/*********facilities************/
+.container{
+  padding-top:2rem;
+}
+.ct-icon-boxes .ct-icon-box {
+padding:1rem;
+border-color:	#FF69B4 ;
+border-width: thick;
+border-style: solid;
+}
+
+.ct-icon-box:hover {
+  background-color: 	#FF69B4;
+  border-color: white;
+}
+.icon{
+  padding:2rem;
+}
+
+/***********tip*****************/
+.tip {
+  background-image: url('img/p5.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+div.cards{
+  font-family: sans-serif;
+  background-color: white;
+  box-shadow: 2px 2px 4px #000000;
+  text-align:left;
+  width:60%;
+  padding: 16px;
+  margin:3rem;
+}
+
+div.cards:hover {
+  background-color: transparent;
+}
+.main-heading{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.pink{
+  color: 	#FF69B4;
+}
+/**********feature*************/
+.circle-icon {
+  background-color: white;
+  color: 	#FF69B4;
+  border-radius:50%;
+  padding:2rem;
+  margin:4rem;
+}
+
+.circle-icon:hover {
+  background-color: 	#FF69B4;
+  color: white;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.features{
+  padding-bottom:2rem;
+}
+.feature{
+  padding:1rem;
+}
+.last-heading{
+  font-weight: bold;
+    color:	#FF69B4;
+  font-size: 1.5rem;
+}
+
+/******button*******/
